@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.canvas {
+    background-color: #F4DFC8;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.searchbar {
+    background-color: #000000;
+    width: 460px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.searchbar input[type="text"] {
+    width: 340px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.searchbar button {
+    padding: 10px 20px;
+    background-color: #444c5c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.city {
+    width: 460px;
+    padding: 20px;
+    color: #444c5c;
+    font-size: 34px;
+    text-align: center;
+}
+
+.info {
+    width: 100%;
+    padding: 20px;
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+}
+
+.temperature {
+    width: 460px;
+    height: 363px;
+    padding: 20px;
+    font-size: 48px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4EAE0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
